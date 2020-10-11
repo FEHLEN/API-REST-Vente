@@ -5,3 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Install angular : -g @angular/cli@7.0.2
+Install Sass : node-sass@4.12.0 --no-save --unsafe -perm
+Install dernière version NodeJs : -g npm@latest
