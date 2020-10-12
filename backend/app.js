@@ -6,7 +6,7 @@ const path = require('path');
 const stuffRoute = require('./routes/stuff');
 const userRoute = require('./routes/user');
 
-mongoose.connect('mongodb+srv://lilife:H2o4r7u8sCr1@cluster0.zdosb.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://lilife:<password>@cluster0.zdosb.mongodb.net/test?retryWrites=true&w=majority',
 { useNewUrlParser: true,
     useUnifiedTopology: true})
     .then(() => console.log('Connexion à MongoDB réussie !'))
